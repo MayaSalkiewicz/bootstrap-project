@@ -21,6 +21,7 @@ body {
   width: 100%;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.8);
+  z-index: -1;
 }
 
 .raspberry-color {
@@ -34,4 +35,19 @@ body {
 .nav-link,
 .navbar-toggler-icon {
   font-size: 1.8rem;
+}
+
+.home {
+  position: relative;
+  height: 60rem;
+  background-image: url("./images/interior.jpg");
+  background-size: cover;
+  background-position: center;
+  z-index: 0;
+}
+
+.home .btn {
+  padding: 1rem 2rem;
+  font-size: 1.4rem;
+  text-transform: uppercase;
 }

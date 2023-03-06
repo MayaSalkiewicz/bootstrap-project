@@ -11,6 +11,16 @@ html {
 body {
   font-family: "Playfair Display", serif;
   font-size: 1.6rem;
+  position: relative;
+}
+[id] {
+  scroll-margin-top: 160px;
+}
+
+@media (min-width: 992px) {
+  [id] {
+    scroll-margin-top: 160px;
+  }
 }
 
 .hero-shadow {
